@@ -13,3 +13,9 @@ public class Car implements Rentable {
         return plateNumber;
     }
 
+    public double getDailyRate() {
+        return dailyRate;
+    }
+
+    public void setDailyRate(double dailyRate) {
+        if (dailyRate > 0 && dailyRate <= 200) {
