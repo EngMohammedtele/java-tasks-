@@ -14,3 +14,4 @@ public class Motorbike implements Rentable {
         return plateNumber;
     }
 
+    public double getDailyRate() {
