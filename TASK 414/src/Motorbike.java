@@ -15,3 +15,6 @@ public class Motorbike implements Rentable {
     }
 
     public double getDailyRate() {
+        return dailyRate;
+    }
+
