@@ -18,3 +18,4 @@ public class Motorbike implements Rentable {
         return dailyRate;
     }
 
+    public void setDailyRate(double dailyRate) {
