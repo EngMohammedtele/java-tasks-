@@ -46,3 +46,6 @@ public class Car implements Rentable {
         if (seats >= 2 && seats <= 7) {
             this.seats = seats;
         } else {
+            IO.println("Seats must be from 2 to 7");
+        }
+    }
