@@ -20,3 +20,4 @@ public class Motorbike implements Rentable {
 
     public void setDailyRate(double dailyRate) {
         if (dailyRate > 0 && dailyRate <= 200) {
+            this.dailyRate = dailyRate;
