@@ -10,3 +10,6 @@ public class Car implements Rentable {
 
     @Override
     public String getPlateNumber() {
+        return plateNumber;
+    }
+
