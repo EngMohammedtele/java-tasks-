@@ -4,3 +4,4 @@ public class Car implements Rentable {
     private int rentalDays;
     private int seats;
 
+    public Car(String plateNumber) {
