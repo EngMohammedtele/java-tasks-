@@ -11,3 +11,6 @@ public class Motorbike implements Rentable {
 
     @Override
     public String getPlateNumber() {
+        return plateNumber;
+    }
+
