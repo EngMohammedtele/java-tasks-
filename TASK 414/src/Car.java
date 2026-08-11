@@ -32,3 +32,4 @@ public class Car implements Rentable {
 
     public void setRentalDays(int rentalDays) {
         if (rentalDays >= 1 && rentalDays <= 30) {
+            this.rentalDays = rentalDays;
