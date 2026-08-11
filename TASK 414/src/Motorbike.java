@@ -6,3 +6,6 @@ public class Motorbike implements Rentable {
     private int engineCc;
 
     public Motorbike(String plateNumber) {
+        this.plateNumber = plateNumber;
+    }
+
