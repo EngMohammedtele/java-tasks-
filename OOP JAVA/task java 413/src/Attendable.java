@@ -1,0 +1,7 @@
+public interface Attendable {
+
+    void printAllInfo();
+    String getPriority();
+    int getWaitMinutes();
+    String getName();
+}

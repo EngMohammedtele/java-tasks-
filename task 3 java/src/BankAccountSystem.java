@@ -150,6 +150,7 @@ public class BankAccountSystem {
     }
 
     //show statistics function
+    // access modifer public
     public void calculateStatistics() {
         double highestBalance = balances.get(0);
         double lowestBalance = balances.get(0);
