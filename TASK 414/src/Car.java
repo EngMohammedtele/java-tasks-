@@ -58,3 +58,12 @@ public class Car implements Rentable {
 
     @Override
     public void printAllInfo() {
+        IO.println(
+                "[Car] " + plateNumber +
+                        ", rate " + dailyRate + " OMR/day" +
+                        ", seats " + seats +
+                        ", " + rentalDays + " days" +
+                        ", cost " + costFor(rentalDays) + " OMR"
+        );
+    }
+}
