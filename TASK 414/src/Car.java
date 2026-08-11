@@ -42,3 +42,4 @@ public class Car implements Rentable {
         return seats;
     }
 
+    public void setSeats(int seats) {
