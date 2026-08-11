@@ -51,3 +51,4 @@ public class Car implements Rentable {
     }
 
     @Override
+    public double costFor(int days) {
