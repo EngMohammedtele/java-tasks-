@@ -5,3 +5,4 @@ public class Motorbike implements Rentable {
     private int rentalDays;
     private int engineCc;
 
+    public Motorbike(String plateNumber) {
