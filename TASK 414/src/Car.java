@@ -57,3 +57,4 @@ public class Car implements Rentable {
     }
 
     @Override
+    public void printAllInfo() {
