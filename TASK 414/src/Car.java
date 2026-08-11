@@ -49,3 +49,5 @@ public class Car implements Rentable {
             IO.println("Seats must be from 2 to 7");
         }
     }
+
+    @Override
