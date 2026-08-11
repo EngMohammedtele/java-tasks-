@@ -39,3 +39,6 @@ public class Car implements Rentable {
     }
 
     public int getSeats() {
+        return seats;
+    }
+
