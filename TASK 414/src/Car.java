@@ -27,3 +27,4 @@ public class Car implements Rentable {
 
     @Override
     public int getRentalDays() {
+        return rentalDays;
