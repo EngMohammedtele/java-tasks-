@@ -56,3 +56,4 @@ public class Car implements Rentable {
         return (dailyRate * days) + 5.000;
     }
 
+    @Override
