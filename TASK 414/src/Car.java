@@ -36,3 +36,6 @@ public class Car implements Rentable {
         } else {
             IO.println("Rental days must be from 1 to 30");
         }
+    }
+
+    public int getSeats() {
