@@ -45,3 +45,4 @@ public class Car implements Rentable {
     public void setSeats(int seats) {
         if (seats >= 2 && seats <= 7) {
             this.seats = seats;
+        } else {
