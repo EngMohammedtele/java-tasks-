@@ -22,3 +22,7 @@ public class Car implements Rentable {
             this.dailyRate = dailyRate;
         } else {
             IO.println("Daily rate out of range");
+        }
+    }
+
+    @Override
