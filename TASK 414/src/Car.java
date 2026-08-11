@@ -5,3 +5,6 @@ public class Car implements Rentable {
     private int seats;
 
     public Car(String plateNumber) {
+        this.plateNumber = plateNumber;
+    }
+
