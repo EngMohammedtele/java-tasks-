@@ -8,3 +8,5 @@ public class Car implements Rentable {
         this.plateNumber = plateNumber;
     }
 
+    @Override
+    public String getPlateNumber() {
