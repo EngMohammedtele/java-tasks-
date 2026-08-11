@@ -52,3 +52,7 @@ public class Car implements Rentable {
 
     @Override
     public double costFor(int days) {
+        // a car always adds a fixed insurance fee on top of the daily rate
+        return (dailyRate * days) + 5.000;
+    }
+
